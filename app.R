@@ -7,12 +7,13 @@ library(sf) #For spatial data
 library(ggplot2) #For graphing
 library(scales) #To help graphing
 library(viridis) #To help graphing
+library(plotly) #For interactive graphing
 
 #################
 ### Load data ###
 #################
 
-read_df_shiny_1 <- readRDS("read_df_shiny_1.Rda")
+read_df_shiny_1 <- readRDS("data/read_df_shiny_1.Rda")
 
 #################################
 ### Define UI for application ###
